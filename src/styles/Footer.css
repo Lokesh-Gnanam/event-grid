@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+footer {
+    background-color: #0f4c75;
+    color: white;
+    padding: 20px 0px; 
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-family: "Sedgwick Ave Display";
+  }
+  
+  .contact-info h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .contact-info p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+  }
+  .info h2{
+    font-size: 15px;
+   
+  }
+  .info p{
+    font-size: 10px;
+    gap:1rem;
+    color: wheat ;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
