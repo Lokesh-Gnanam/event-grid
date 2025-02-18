@@ -13,7 +13,8 @@ const UpcomingEvents = () => {
   return(
     <div >
     <h2 className="upcoming">UPCOMING EVENTS</h2>
-    { data.upcoming.map((item, index)=>(
+    { data.upcoming && data.upcoming.length > 0 ? (
+    data.upcoming.map((item, index)=>(
       <div className="event" key={index}>
       
       <div >
@@ -24,18 +25,28 @@ const UpcomingEvents = () => {
           <h4>{item.title}</h4>
           </div>
           <div>
-          <p>{item.des}</p>
+          <p className="descript">{item.des}</p>
           <br/>
-          <p className="contact">{item.details}</p>
-          <p className="contact">{item.contact}</p>
-          <p className="contact">{item.contact1}</p>
+            <div className="contact">
+              <div  className="contact-cont">
+                <p>{item.details}</p>
+                <p>{item.contact}</p>
+                <p>{item.contact1}</p>
+              </div>
+            </div>
           </div>
           <div>
           <button className="button"  onClick={() => handleRegisterClick(item.link)} >Register</button>
           </div>
       </div>
   </div>
-    ))}
+    ))
+  ) : (
+    <div className="no-upcoming">
+      <p className="no-events">🚨 There are no Upcoming events right now.</p> 
+    </div>
+  )
+    }
     </div>
   );
    

@@ -49,8 +49,6 @@
 
 .message{
     display: flex;
-    
-    
     justify-content: end;
 }
 
@@ -69,4 +67,63 @@
 .n-content p{
     font-size: 14px;
     color: brown;
+}
+
+@media (max-width:480px){
+
+    .container img{
+        width: 25px;
+        height: auto;
+        margin-top: 3px;
+        margin-right: 3px;
+    }
+    .container h1{
+        font-size: 10px; 
+        padding-top: 5px;   
+    } 
+    .container p{
+        font-size: 5px;
+        padding-left: 15px;
+   }
+   .e-title{
+    font-size: 8px;
+    text-align: center;
+    color: orange;
+    margin-top: 10px;
+}
+.notify h3{
+    font-size: 10px;
+    color: red;
+}
+.notify img{
+    width: 15px;
+    height:15px;
+    color: red;
+}
+
+.notify{
+    display: flex;
+    justify-content:end;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left:40px;
+    cursor: pointer;
+}
+.n-content{
+
+    width: 250px;
+    height: 20px;
+    z-index: 10000;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(74, 74, 74, 0.212) ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.n-content p{
+    font-size: 7px;
+    color: brown;
+}
+
 }

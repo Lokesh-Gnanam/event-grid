@@ -24,11 +24,11 @@ function Header() {
               </div>
           </div >
       </div>
+      <h2 className="e-title">Event Grid 2025-2026</h2>
           <span className="notify">
             <img src={bell} alt="notify"></img>
             <h3 onClick={()=>handleNotify()}>Notifications</h3>
           </span>
-      <h2 className="e-title">Event Grid 2025-2026</h2>
     
       {notification ? (
         <span className="message" >

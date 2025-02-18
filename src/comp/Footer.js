@@ -15,7 +15,7 @@ export default function Footer() {
         </div> 
         <div className="contact-info">
           <h3>Contact Us</h3>
-          <p>📧 eventmanager@gmail.com</p>
+          <a href="mailto:eventmanagerskct@gmail.com" >📧 eventmanagerskct@gmail.com</a>
           <p>📷 @events_skct</p>
           <p>💬 chat.whatsapp.com</p>
         </div>
