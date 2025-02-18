@@ -1,6 +1,7 @@
 .details-cont{
     display: flex;
     justify-content: center;
+   
 }
 
 .details {
@@ -14,7 +15,8 @@
     height: 300px;
     width: 300px;
     background-color:bisque ;
-   
+    border-radius: 5px;
+    margin: 50px;
 }
 .ong-cont h2{
     font-size: 19px;
@@ -36,6 +38,7 @@
     padding: 10px 0px;
 }
 .ongoing{
+    margin-top: 50px;
     margin-bottom: 10px;
     font-size: 19px;
     color: orange;
@@ -64,6 +67,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+    
 }
 
 
